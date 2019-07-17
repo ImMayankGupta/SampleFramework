@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[All fields entered on flight search page and form submitted]]>
+    </line>
+    <line>
+      <![CDATA[Flight search passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15713" started-at="2019-07-17T13:02:45Z" finished-at="2019-07-17T13:03:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15713" started-at="2019-07-17T13:02:45Z" finished-at="2019-07-17T13:03:00Z">
+      <class name="com.sgvu.sample.tests.FlightBookingTest">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.sgvu.sample.tests.FlightBookingTest@7823a2f9]" name="startTest" is-config="true" duration-ms="3001" started-at="2019-07-17T18:32:45Z" finished-at="2019-07-17T18:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="flight_valid_search()[pri:0, instance:com.sgvu.sample.tests.FlightBookingTest@7823a2f9]" name="flight_valid_search" duration-ms="12625" started-at="2019-07-17T18:32:48Z" finished-at="2019-07-17T18:33:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[All fields entered on flight search page and form submitted]]>
+            </line>
+            <line>
+              <![CDATA[Flight search passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flight_valid_search -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.sgvu.sample.tests.FlightBookingTest@7823a2f9]" name="closeSession" is-config="true" duration-ms="72" started-at="2019-07-17T18:33:00Z" finished-at="2019-07-17T18:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.sgvu.sample.tests.FlightBookingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
